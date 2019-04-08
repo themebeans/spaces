@@ -1,0 +1,31 @@
+/*
+Theme Name: Spaces
+Description: Used to style the TinyMCE editor.
+*/
+
+@import url(../../style.min.css);
+
+body.wp-autoresize {
+	padding: 20px 25px !important;
+	background: #fff;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+ul,
+ol {
+	margin: 40px;
+}
+
+ol li ul,
+ul li ol,
+ul li ul,
+ol li ol {
+	margin: 20px 0 20px 20px;
+}

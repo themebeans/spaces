@@ -1,0 +1,284 @@
+/*===================================================================*/
+/*	STYLES FOR EDD
+/*===================================================================*/
+li.masonry-item.grid-masonry .portfolio.type-download {
+	position: relative;
+}
+
+.downloads li.masonry-item.grid-masonry .overlay {
+	opacity: 0!important;
+}
+
+#masonry-container.downloads li.masonry-item.grid-masonry .type-download {
+	margin-bottom: 30px;
+	opacity: 1!important;
+}
+
+#masonry-container.downloads li.masonry-item.grid-masonry {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#masonry-container.downloads li.masonry-item.grid-masonry h2 {
+	margin-bottom: 10px;
+}
+
+.edd_price {
+	border: 1px solid #EEE;
+	border-radius: 4px;
+	display: inline-block;
+	margin-bottom: 30px;
+	padding: 0px 4px;
+	display: none;
+}
+
+.product-btn .edd_price_options,
+#masonry-container.downloads li.masonry-item.grid-masonry .edd-cart-added-alert {
+	display: none!important;
+}
+
+#masonry-container.downloads li.masonry-item.grid-masonry .product-btn a {
+	font-size: 13px;
+	padding: 8px 16px 7px;
+}
+
+.related.downloads {
+	margin-top: 80px;
+}
+
+/* SINGLE */
+.single-download .edd_price {
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+
+.single-download .sidebar {
+	margin-top: 0;
+}
+
+.single-download .entry-content-media {
+	margin-bottom: 60px;
+	position: relative;
+}
+
+.single-download .entry-content .edd_download_purchase_form {
+	display: none;
+}
+
+.single-download .mobile-cart {
+	display: none;
+	margin-bottom: 70px;
+	margin-top: 70px;
+}
+
+.single-download .mobile-cart .button,
+.single-download .four.columns.meta .button {
+	width: 100%;
+}
+
+.single-download .four.columns.meta {
+	text-align: center;
+	padding-right: 10%;
+}
+
+.edd_download_purchase_form .edd_price_options li {
+	background-color: #F5F5F5;
+	border-radius: 4px;
+	margin-bottom: 5px;
+	padding: 5px 10px;
+}
+
+.edd_download_purchase_form .edd_price_options li span {
+	color: #AAA!important;
+}
+
+.entry-content .download-meta {
+	list-style: none;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+.edd-cart-added-alert {
+	color: #3FC380;
+	margin-top: 20px;
+	text-align: center;
+	position: relative;
+}
+
+.edd_errors {
+	padding: 1em 1em 1em 2.618em!important;
+	background-color: #F5F5F5;
+	border-color: #F5F5F5;
+	color: #FF5454;
+	position: relative;
+	margin-bottom: 20px!important;
+	border-radius: 4px;
+	color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+}
+
+.edd_error {
+	padding: 0;
+}
+
+#edd_checkout_form_wrap fieldset,
+#edd_checkout_form_wrap #edd-discount-code-wrap, #edd_checkout_form_wrap #edd_final_total_wrap, #edd_checkout_form_wrap #edd_show_discount {
+	border: 0;
+	padding: 0;
+}
+
+#edd_checkout_wrap label {
+	font-weight: normal;
+	margin-bottom: -5px;
+}
+
+.entry-content #edd_checkout_form_wrap input {
+	margin: 10px 0 30px;
+}
+
+#edd_profile_editor_form legend,
+#edd_checkout_form_wrap #edd-payment-mode-wrap .edd-payment-mode-label,
+#edd_checkout_form_wrap legend {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 18px; 
+	line-height: 30px;  
+}
+
+#edd_checkout_form_wrap #edd_final_total_wrap {
+	background-color: transparent;
+}
+
+#edd_checkout_form_wrap #edd_purchase_submit {
+	padding: 40px;
+}
+
+#edd_checkout_form_wrap #edd_purchase_submit,
+#edd_checkout_cart .edd_cart_header_row th {
+	background-color: #F5F5F5;
+}
+
+#edd_checkout_cart td, #edd_checkout_cart th {
+	border-color: #F5F5F5;
+	border-width: 2px;
+	padding: 1em 1.387em;
+}
+
+p.edd_error,
+a.edd_cart_remove_item_btn {
+	color: #FF5454;
+}
+
+#edd_checkout_cart td img {
+	display: none;
+}
+
+#theme-wrapper #edd_checkout_wrap .edd-submit.button {
+	padding: 16px 40px;
+	font-size: 18px!important;
+	width: 100%;
+}
+
+#edd_checkout_form_wrap input[type=radio] {
+	margin-right: 7px;
+}
+
+#edd_checkout_form_wrap #edd_final_total_wrap {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#edd_terms_agreement {
+	text-align: left;
+}
+
+#edd_agree_to_terms {
+	margin: 7px 7px 0 0!important;
+}
+
+#edd_show_terms a.edd_terms_links {
+	background-color: #E2E2E2;
+	border-radius: 3px;
+	color: #282828;
+	padding: 4px 8px;
+	position: absolute;
+	right: 40px;
+	text-transform: uppercase;
+	margin-top: -5px;
+	font-size: 14px;
+}
+
+#edd_terms {
+	border-bottom: 2px solid #EEE;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.edd_empty_cart,
+.edd-logged-in {
+	display: block;
+	text-align: center;
+	padding: 1em 1em 1em 2.618em!important;
+	background-color: #F5F5F5;
+	position: relative;
+	margin-bottom: 20px!important;
+	border-radius: 4px;
+	color: rgba(0, 0, 0, 0.6);
+	margin-top: 40px!important;
+}
+
+/* LOGIN / REGISTER FORMS */
+.page-template-template-edd-form-php #edd_login_form fieldset span,
+.page-template-template-edd-form-php #edd_login_form fieldset label,
+.page-template-template-edd-login-php #edd_login_form fieldset span,
+.page-template-template-edd-login-php #edd_login_form fieldset label  {
+	display: none;
+}
+
+.page-template-template-edd-form-php #edd_login_form .edd-input, 
+.page-template-template-edd-form-php #edd_register_form .edd-input,
+.page-template-template-edd-login-php #edd_login_form .edd-input, 
+.page-template-template-edd-login-php #edd_register_form .edd-input {
+	width: 100%;
+}
+
+.page-template-template-edd-form-php #edd_login_form .edd_submit,
+.page-template-template-edd-login-php #edd_login_form .edd_submit {
+	width: 100%;
+}
+
+.page-template-template-edd-form-php #edd_login_form p,
+.page-template-template-edd-login-php #edd_login_form p {
+	margin-bottom: 0;
+}
+
+.page-template-template-edd-form-php #edd_login_form .edd-lost-password,
+.page-template-template-edd-login-php #edd_login_form .edd-lost-password  {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.page-template-template-edd-form-php #edd_login_form .edd-lost-password a,
+.page-template-template-edd-login-php #edd_login_form .edd-lost-password a {
+	font-weight: normal;
+}
+
+/* PROFILE EDITOR FORM */
+#edd_profile_submit_wrap,
+.edd_password_change_notice,
+.page-template-template-edd-profile-editor-php .min-wrap {
+	text-align: center;
+}
+
+#edd_profile_editor_form {
+	text-align: left;
+}
+
+.edd_password_change_notice {
+	margin: 50px 30px 30px!important;
+}
+
+#edd_profile_editor_form {
+	padding-bottom: 50px;
+}

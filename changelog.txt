@@ -1,0 +1,464 @@
+** Spaces Changelog **
+
+06 April 2019, Version 3.0.5
+	* New: Add support for the new `wp_body_open` hook in WordPress 5.2+
+	* Tweak: Admin 1.6.1
+
+21 December 2018, Version 3.0.4
+	* Fix: Custom font selections now properly display in WordPress 5.0+
+
+30 November 2018, Version 3.0.3
+	* Tweak: Remove cropping of featured images within the masonry templates
+
+07 November 2018, Version 3.0.2
+	* New: Add Contact Form 7 as a recommended plugin
+	* New: Add support for PHP 7.2
+	* Tweak: Adjust contact form styling
+	* Tweak: Add proper action hooks to spaces_site_logo()
+
+31 May 2018, Version 3.0.1
+	* New: WooCommerce 3.4 compatibility
+
+07 May 2018, Version 3.0.0
+	New:
+		* Add the latest ThemeBeans framework upgrade with modern coding standards and build scripts in place
+		* Add TGM Plugin Activation support with recommended plugins
+		* Add concated styles and scripts for faster performance 🚀
+		* Add WordPress 4.7- backwards compatibility notice
+		* Add a new license Customizer control for managing your theme license
+		* Add support for core custom logo functionality and auto-migration
+		* Add SCSS support with auto browser auto-prefixing
+		* Add minified Customizer JS and editor stylesheet assets with auto-prefixing
+		* Add new custom logo width options for desktop and mobile viewports
+		* Add new Underscore JS Customizer controls for improved Customizer speed
+		* Add WooCommerce 3.3.5 compatibility
+		* Move /js/ to /assets/js/{source}
+		* Improve debug mode that works with minified asset delivery throughout the entire theme
+		* Improve Customizer settings with proper organization
+		* Improve Customizer UI
+		* Prepare for Gutenberg compatibility
+		* Remove legacy framework code
+		* Remove the dashboard license widget (because we have the new Customizer License Key control)
+		* Remove the Customizer Login Logo options, in lieu of (Login Designer)[https://wordpress.org/plugins/login-designer]
+		* Remove Google Analytics settings, in lieu of Yoast SEO (or another plugin of your choice)[https://wordpress.org/plugins/wordpress-seo]
+
+	Fixes & Updates:
+		* Tweaked function names with proper "spaces_" prefixes, instead of "bean_"
+		* Improved theme updater class
+		* Improved Customizer sanitization functions
+		* Improved theme styles to make them more modern
+		* Improved PHPCS code readability
+		* Conducted a security audit and added recommended optimizations
+		* Lightbox gallery fix for Android Chrome
+		* Updated comments
+		* Updated child theme
+		* Updated languages
+
+
+22 March 2018 - Version 2.1.8
+	Fixes & Updates:
+		* Add a proper check for the menu in the footer
+		* Resolve Contact template placeholder missing translation references
+		* Touch up Customizer styles
+
+
+04 November 2017 - Version 2.1.7
+	Fixes & Updates:
+		* Resolved team member shortcut output display error
+
+
+12 October 2017 - Version 2.1.6
+	Fixes & Updates:
+		* Added support for WooCommerce 3.2.0
+
+
+24 August 2017 - Version 2.1.5
+	Fixes & Updates:
+		* Added conditional checks for Envato Hosted accounts
+
+
+09 June 2017 - Version 2.1.4
+    Fixes & Updates:
+        * Fixed HTTPS Google Fonts connection issue
+        * Removed the Video Widget, as it's now included in Core
+        * Applied a small UI fix for improved visibility of the custom range controls
+
+16 May 2017 - Version 2.1.3
+    New:
+        * Added full support for WooCommerce 3.0.6+ 🙌
+        	- You'll need to set your product image width and regenerate thumbnails upon updating [https://wordpress.org/plugins/regenerate-thumbnails/]
+        * Added WooCommerce 3.0+ product slideshow & lightbox support
+
+    Fixes & Updates:
+    	* Modified hover transition animations to be smoother and cleaner
+        * Updated languages
+
+21 February 2016 - Version 2.1.2
+    New:
+        * Added Retina Logo option in the Customizer, Site Identity Panel
+             - You'll need to upload a retina-sized logo in the Logo field
+    Fixes & Updates:
+        * Updated languages
+
+07 February 2016 - Version 2.1.1
+    New:
+        * Added full PHP 7 Compatibility 🚀
+    Fixes & Updates:
+        * Removed Retina.JS support as WordPress core handles retina now
+        * Updated languages
+
+23 December 2016 - Version 2.1.0
+    Fixes & Updates:
+        * WordPress 4.7 touchups
+        * Custom CSS -> WP Core CSS migration
+        * Updated pingback header function
+        * Updated languages
+
+
+26 May 2016 - Version 2.0.4
+     * Header row specificity
+     * Cleaned custom-libraries.js
+
+
+23 March 2016 - Version 2.0.3
+     * Added support for title-tag
+        - header.php
+        - header-min.php
+        - functions.php
+     * Removed Framework SEO
+        - We suggest you use Yoast [https://wordpress.org/plugins/wordpress-seo]
+     * Performance improvments
+     * Updated languages
+
+
+26 January 2016 - Version 2.0.2
+    * Style 2 input:focus text color fix
+    * Updated languages
+
+
+26 January 2016 - Version 2.0.1
+    * Style 2 input:focus text color fix
+    * Updated languages
+
+
+25 January 2016 - Version 2.0.0
+    * EDD_Theme_Updater Update
+        - Re-activate your theme license key upon updating.
+    * Updated languages
+
+
+04 January 2016 - Version 1.9.9
+	* Dynamic Sidebar WP 4.4 fixes
+	* Updated languages
+
+
+18 December 2015 - Version 1.9.8
+	* EDD categorical archive fixes
+		- taxonomy-download_category.php (NEW)
+		- taxonomy-download_tag.php (NEW)
+	* WooCommerce update
+		- woocommerce/single-product/price.php
+	* Updated languages
+
+
+2 December 2015 - Version 1.9.7
+	* WooCommerce category hierarchy fix
+		- woocommerce/style-woo.css
+	* Menu widget hierarchy fix
+		- style.css
+		- style-min.css
+	* Portfolio (Grid+Lightbox) caption fix
+		- inc/functions/media.php
+
+
+3 November 2015 - Version 1.9.6
+	* Post excerpt updates
+		- Strip shortcodes from excerpts
+		- Added excerpt support if it's active on a post
+		- loop-post.php
+	* Fixed shortcodes in excerpts
+	* Added style-min.css
+	* Site Icon WP 4.3 fix
+		- framework/functions/bean-admin-functions.php
+	* Contact template now uses wp_mail mailing function
+		- template-contact.php
+	* Updated languages
+	* Portfolio social display fix
+		- content-portfolio-meta.php
+
+
+31 August 2015 - Version 1.9.5
+	* 100% GPL license
+		- style.css (top comments)
+		- Read more: http://themebeans.com/news/all-themes-now-100-gpl/
+
+
+18 August 2015 - Version 1.9.4
+	* Theme Customizer update
+		- Moved Branding section to WP default Site Identity section
+		- Removed favicon & apple touch uploader (WP 4.3 is default)
+		- inc/customizer folder
+	* 4.3 widget __construct update
+		- inc/widgets folder
+	* Framework updated to v2.6.2.1
+		- WP 4.3 Theme Customizer update
+		- Custom CSS Editor UI/X update
+		- framework folder
+	* Updated languages
+
+
+14 August 2015 - Version 1.9.3
+	* Added Customizer Export/Import support (NEW)
+		- More info: http://themebeans.com/?p=71018
+		- Download & Install: https://wordpress.org/plugins/customizer-export-import
+		- [theme]-package/customizer/[theme]-export.data (NEW)
+	* Improved optimization of image assets
+	* Added minified css/js files
+		- style.min.css (NEW)
+		- mobile.min.css (NEW)
+		- custom.min.js (NEW)
+		- custom-libraries.min.js (NEW)
+	* Lightbox reordering bug fix
+		- content-template-portfolio-grid.php
+	* WooCommerce integration update
+		- woocommerce/content-product.php
+		- woocommerce/sytle-woo.css
+	* Team member URL fix
+		- loop-team.php
+	* Framework updated to v2.2.6
+	* Updated documentation
+	* Updated languages
+
+
+2 July 2015 - Version 1.9.2
+	* Woocommerce quantity input update
+
+
+30 April 2015 - Version 1.9.1
+	* Visual post editor touch ups
+	* Theme Customizer UI improvements
+	* bean_custom_form_filters comments 4.2+ fix
+	* Framework updated to v2.2.5
+	* Updated languages
+
+
+22 April 2015 - Version 1.9.0
+	* XSS fix
+	* Woocommerce 2.3.0 template update (product-thumbnails.zip)
+	* Enabled testimonial custom sorting
+	* Removed TGM Plugin Activation class
+	* Removed packaged bean-testimonials.zip plugin
+		- Bean Testimonials plugin is now available on themebeans.com
+	* Escaped team loop
+	* Framework updated to v2.2.4.2
+		- Updated Theme Customizer UI
+		- Updated Custom CSS Editor
+	* Updated languages
+
+
+10 March 2015 - Version 1.8.0
+	* Added sharper @3x images for HD Retina devices (NEW)
+	* Improved UX of hidden sidebar interaction
+	* Post/Portfolio likes customizer option fix
+	* Contact form updated
+		- Anti-spam $headers fix
+	* Framework updated to v2.2.3.1
+		- Customizer image upload update
+	* Removed packaged bean-team-members.zip plugin
+		- Bean Team plugin is now available on themebeans.com
+	* Table of Contents for primary stylesheet
+	* Updated languages
+
+
+14 January 2015 - Version 1.7.4
+	* WooCommerce single variables update
+	* Framework updated to v2.2.3
+	* Updated languages
+
+
+22 December 2014 - Version 1.7.3
+	* Framework updated to v2.2.2
+	* Updated languages
+
+
+10 Dec 2014 - Version 1.7.2
+	* Framework updated to v2.2
+		- Added HD Retina assets
+		- Updated apple-touch-icon
+		- Updated Custom CSS Editor
+		- Notifications for theme updates
+		- Dashboard updating enabled
+		- Theme license admin page (NEW)
+		- Moved customizer functions to /framework
+	* Updated child theme
+	* Updated languages
+
+
+30 October 2014 - Version 1.7.1
+	* Custom typography update
+	* Updated languages
+
+
+27 October 2014 - Version 1.7.0
+	* Easy Digital Downloads full shop integration (NEW)
+		-demo: http://demo.themebeans.com/spaces/downloads
+		-loop-download.php
+		-single-download.php
+		-archive-download.php
+		-content-download.php
+		-template-edd.php
+		-template-edd-form.php
+		-template-downloads.php
+		-content-download-meta.php
+		-template-edd-profile-editor.php
+		-inc/edd/style-edd.css
+	* Enable EDD support via Theme Customizer
+	* Updated documentation
+	* Updated languages
+
+
+21 October 2014 - Version 1.6.3
+	* Password protected portfolio update
+		-single-portfolio.php
+		-content-portfolio-social.php
+		-content-portfolio-media.php
+	* Updated languages
+
+
+21 October 2014 - Version 1.6.2
+	* Restrict Content Pro styles update
+
+
+20 October 2014 - Version 1.6.1
+	* FireFox grayscale functionality
+	* Dribbble feed template update
+	* Updated languages
+
+15 October 2014 - Version 1.6.0
+	* Added Dribbble feed functionality (NEW)
+		- template-dribbble.php (NEW)
+		- template-dribbble-fullwidth.php (NEW)
+		- content-dribbble-feed.php (NEW)
+		- widget-dribbble.php (REMOVED)
+		- inc/functions/init.php
+	* Added Edge-to-Edge single portfolio layout option (NEW)
+	* Added Edge-to-Edge image caption modules (NEW)
+	* Added Masonry global layout switcher (NEW)
+	* Added Masonry Fullwidth global layout switcher (NEW)
+	* Added individual on/off for more portfolio posts loop (NEW)
+	* Added custom fields on/off switch on single portfolio (NEW)
+	* Updated child theme
+	* Updated languages
+
+7 October 2014 - Version 1.5.0
+	* Restrict Content Pro full integration (NEW)
+		- rcp/login.php (NEW)
+		- rcp/register.php (NEW)
+		- rcp/profile-editor.php (NEW)
+		- rcp/change-password.php (NEW)
+		- template-rcp-form.php (NEW)
+		- template-rcp-lostpass.php (NEW)
+		- New Theme Customizer values (if installed)
+	* Added portfolio masonry output shortcode: [portfolio]
+	* Improved Woo checkout mobile view
+	* Mobile Menu CSS update
+	* Filter responsive nav fix
+	* JS placeholders translation update
+	* Framework updated to v2.1.1
+		- Customizer major update
+	* Updated child theme
+	* Updated documentation
+	* Updated languages
+
+16 September 2014 - Version 1.4.2
+	* Added new masonry single portfolio gallery layout (NEW)
+	* Portfolio Filtering header nav option (NEW)
+	* Custom CSS Editor update - now with code formatting
+	* Disabled comments output fix
+	* Single post likes fix
+	* Framework updated to v2.0.9.2
+	* Updated languages
+
+11 September 2014 - Version 1.4.1
+	* Portfolio custom meta fields support (NEW)
+	* Added product/shop footer pagination
+	* Added likes function to single portfolio
+	* Masonry lightbox caption fix
+	* Std portfolio likes z-index fix
+	* Updated pre style - horizontal scroll support
+	* Updated languages
+
+4 September 2014 - Version 1.4.0
+	* WP 4.0 compatibility update
+	* Added support for the Gravity Forms plugin (NEW)
+	* Masonry single gallery image lightbox fix
+	* Updated languages
+
+26 August 2014 - Version 1.3.3
+	* Blogroll typo fix
+
+26 August 2014 - Version 1.3.2
+	* Search index fix
+
+25 August 2014 - Version 1.3.1
+	* Add a subscribe form to your posts with Mailbag support (NEW)
+	* Added an option to display related portfolio posts (NEW)
+	* Portfolio filter support via the new Portfolio Filter widget (NEW)
+	* Updated languages
+
+22 August 2014 - Version 1.3
+	* Added column layout selector (standard and large) (NEW)
+	* Improved portfolio archival views - now switches with your layout
+	* Modified header to output category description if added
+	* Updated languages
+
+19 August 2014 - Version 1.2.2
+	* Masonry templates enqueue fix
+	* Grid theme_layout non-standard fix
+	* Added sub and sup styling
+	* Updated languages
+
+12 August 2014 - Version 1.2.1
+	* Added carousel single portfolio layout (lightbox & default) (NEW)
+	* Modified header to output content, if default portfolio block is disabled
+	* Style 3 & 4 adjustments
+	* Child theme update
+	* Updated languages
+
+10 August 2014 - Version 1.2.0
+	* Added back to portfolio pagination link (NEW)
+	* Added masonry lightbox templates (STD and Fullwidth) (NEW)
+	* template-portfolio-masonry-fullwidth.php (NEW)
+	* template-portfolio-masonry-fullwidth-lightbox.php (NEW)
+	* Updated languages
+
+9 August 2014 - Version 1.1.2
+	* Added Style 4 (Classic/Helvetica) (NEW)
+	* style-4.css (NEW)
+	* Updated languages
+
+9 August 2014 - Version 1.1.1
+	* Centered header layout fix
+	* Updated packaged plugins - typo
+	* Style 3 (roboto) adjustments
+	* Masonry functions enqueue
+	* Updated languages
+
+8 August 2014 - Version 1.1.0
+	* content-team.php (NEW)
+	* template-team.php (NEW)
+	* meta-team.php (NEW)
+	* loop-team.php (NEW)
+	* bean-team-members.zip (NEW)
+	* bean-testimonials.zip (NEW)
+	* content-testimonials.php (NEW)
+	* template-testimonials.php (NEW)
+	* Logo text customizer added (NEW)
+	* Bean Team Members compatibitly
+	* Bean Testimonials compatibitly
+	* Added team output shortcode: [team]
+	* Added testimonials output shortcode: [testimonials]
+	* Style 2 (dark) adjustments
+
+7 August 2014 - Version 1.0
+	* Initial release

@@ -1,0 +1,155 @@
+#sub-accordion-section-spaces_theme_options #customize-control-portfolio_page_selector,
+#sub-accordion-section-spaces_theme_options #customize-control-portfolio_posts_count,
+#sub-accordion-section-spaces_theme_options #customize-control-portfolio_column_width,
+#sub-accordion-section-spaces_theme_options #customize-control-portfolio_loop_orderby,
+#sub-accordion-section-spaces_theme_options #customize-control-theme_version,
+#sub-accordion-section-spaces_typography #customize-control-portfolio_page_selector,
+#sub-accordion-section-spaces_typography #customize-control-portfolio_posts_count,
+#sub-accordion-section-spaces_typography #customize-control-portfolio_column_width,
+#sub-accordion-section-spaces_typography #customize-control-portfolio_loop_orderby,
+#sub-accordion-section-spaces_typography #customize-control-theme_version {
+  margin-bottom: 18px;
+}
+
+#sub-accordion-section-spaces_theme_options #customize-control-portfolio_page_selector .customize-control-description,
+#sub-accordion-section-spaces_theme_options #customize-control-portfolio_column_width .customize-control-description,
+#sub-accordion-section-spaces_theme_options #customize-control-portfolio_loop_orderby .customize-control-description,
+#sub-accordion-section-spaces_theme_options #customize-control-theme_version .customize-control-description,
+#sub-accordion-section-spaces_typography #customize-control-portfolio_page_selector .customize-control-description,
+#sub-accordion-section-spaces_typography #customize-control-portfolio_column_width .customize-control-description,
+#sub-accordion-section-spaces_typography #customize-control-portfolio_loop_orderby .customize-control-description,
+#sub-accordion-section-spaces_typography #customize-control-theme_version .customize-control-description {
+  margin-bottom: 5px;
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-themebeans-title,
+#sub-accordion-section-spaces_typography .customize-control-themebeans-title {
+  margin-bottom: 14px;
+  border-top: 1px solid #dcdcdc;
+  padding-top: 20px;
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-themebeans-title .customize-control-title,
+#sub-accordion-section-spaces_typography .customize-control-themebeans-title .customize-control-title {
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #656a6f;
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-themebeans-title#customize-control-logo_font_title,
+#sub-accordion-section-spaces_typography .customize-control-themebeans-title#customize-control-logo_font_title {
+  border: 0;
+  padding-top: 0;
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-title,
+#sub-accordion-section-spaces_typography .customize-control-title {
+  font-weight: 500;
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-themebeans-toggle,
+#sub-accordion-section-spaces_typography .customize-control-themebeans-toggle {
+  margin-bottom: 12px;
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-themebeans-toggle .customize-control-title,
+#sub-accordion-section-spaces_typography .customize-control-themebeans-toggle .customize-control-title {
+  margin-bottom: 2px;
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-themebeans-toggle .customize-control-description,
+#sub-accordion-section-spaces_typography .customize-control-themebeans-toggle .customize-control-description {
+  padding-right: 60px;
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-description,
+#sub-accordion-section-spaces_typography .customize-control-description {
+  color: #656a6f;
+  font-style: normal;
+}
+
+#sub-accordion-section-spaces_theme_options input[type="text"],
+#sub-accordion-section-spaces_typography input[type="text"] {
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+}
+
+#sub-accordion-section-spaces_theme_options input[type="text"]:focus,
+#sub-accordion-section-spaces_typography input[type="text"]:focus {
+  -webkit-box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+          box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+}
+
+#sub-accordion-section-spaces_theme_options textarea,
+#sub-accordion-section-spaces_typography textarea {
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#sub-accordion-section-spaces_theme_options textarea:focus,
+#sub-accordion-section-spaces_typography textarea:focus {
+  -webkit-box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+          box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-select,
+#sub-accordion-section-spaces_typography .customize-control-select {
+  position: relative;
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-select .customize-control-description,
+#sub-accordion-section-spaces_typography .customize-control-select .customize-control-description {
+  margin-top: -4px;
+  margin-bottom: 12px;
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-select::after,
+#sub-accordion-section-spaces_typography .customize-control-select::after {
+  font: 400 11px/11px dashicons;
+  content: "\f341";
+  position: absolute;
+  right: 8px;
+  bottom: 9px;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-select select,
+#sub-accordion-section-spaces_typography .customize-control-select select {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin: 0;
+  background: #fff;
+  padding: 0;
+  line-height: 22px;
+  height: 30px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding-left: 8px;
+  color: #555d66;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 13px;
+  border-radius: 3px;
+  width: calc( 100% - 46px);
+  width: 100%;
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-select select:hover,
+#sub-accordion-section-spaces_typography .customize-control-select select:hover {
+  border-color: #5b9dd9;
+  -webkit-box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+          box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+}
+
+#sub-accordion-section-spaces_theme_options .customize-control-select select::-ms-expand,
+#sub-accordion-section-spaces_typography .customize-control-select select::-ms-expand {
+  display: none;
+}

@@ -1,0 +1,237 @@
+h1, h2, h3 {
+	text-transform: none;
+}	
+
+p a, 
+.widget p a,
+.widget li a,
+.archives-list li a  {
+	border-bottom-width: 2px;
+	font-weight: normal;
+}
+
+body,
+body p,
+body h1, 
+body h5,
+body .btn,
+body .button,
+body textarea,
+body .rss-date,
+body .testimonial h1 p,
+body  h3#reply-title,
+body .viewer .caption,
+body .archives-list h6,
+body input[type="tel"], 
+body input[type="url"], 
+body input[type="text"], 
+body input[type="date"], 
+body input[type="time"], 
+body #author-wrapper h6, 
+body .wpcf7-form select,
+body input[type="email"], 
+body .btn[type="submit"],
+body input[type="reset"], 
+body input[type="number"], 
+body .comment-author span,
+body .comment-author cite,
+body #wp-calendar caption,
+body input[type="search"],
+body input[type="button"],
+body input[type="submit"],
+body input[type="password"],
+body input[type="datetime"],
+body .button[type="submit"],
+body #cancel-comment-reply-link,
+body .home-slide a.post-edit-link,
+body .entry-content .wp-playlist-item-length,
+body .widget_bean_tweets a.twitter-time-stamp,
+body .bean-pricing-table .table-mast h5.title,
+body #edd_checkout_form_wrap select.edd-select,
+body .bean-pricing-table .table-mast h6.price,
+body .bean-pricing-table, .bean-pricing-table .table-mast p {
+	font-family: "Roboto", Helvetica, sans-serif!important; 
+}
+
+body .onsale,
+body .tagcloud a,
+body .bean-tabs a,
+body .products li h5,
+body h6.widget-title, 
+body .archives-list h6,
+.reveal h3#reply-title,
+body .bean-image-caption,
+.reveal h6.comments-title,
+.reveal #author-wrapper h6,
+body .woocommerce table th,
+body .bean-panel-title > a,
+body #load-more .overlay h5,
+body .crsl-item .overlay h5,
+body .type-team .overlay h4,
+body .bean-coming-soon .count,
+body .bean-tabs > li.active > a,
+body .slides-container .overlay h1,
+body #portfolio-grid li .overlay h5,
+body .home-slider-mobile li .overlay h3,
+body .home-portfolio-fullwidth .overlay h1,
+body .masonry-item .overlay .post-inner h1,
+body .widget_bean_portfolio li .overlay h5,
+body li.masonry-item.grid-masonry .overlay h5,
+body .bean-pricing-table .table-mast h5.title {
+	font-family: "Roboto", Helvetica, sans-serif!important;
+}
+
+.tabs,
+.subtext, 
+#reviews .meta,
+.form-row label,
+.gform_wrapper .top_label .gfield_label,
+.widget span.reviewer,
+.hidden-sidebar.sidebar, 
+.hidden-sidebar.sidebar p,
+.entry-content .portfolio-social li a,
+.widget ul.product_list_widget li .amount,
+.widget ul.product_list_widget li .quantity,
+.bean-pricing-table .pricing-column li {
+	font-size: 16px;
+	line-height: 1.7em;
+	text-transform: none;
+}
+
+.btn, 
+.button,     
+.btn[type="submit"],
+input[type="reset"], 
+input[type="button"],
+input[type="submit"],
+.button[type="submit"],
+.reveal #reply-title,
+.products li a.added_to_cart, 
+.fancybox-title-float-wrap .child,
+.comment-author span, .comment-author cite,
+.widget input, .widget textarea {
+	text-transform: none;
+}
+
+textarea,		   
+input[type="tel"], 
+input[type="url"], 		   
+input[type="text"], 
+input[type="date"], 
+input[type="time"], 
+input[type="email"], 
+input[type="number"], 
+input[type="search"], 
+input[type="password"], 
+input[type="datetime"],
+.wpcf7-form select  {
+	border-radius: 2px;
+}
+
+p,
+body,
+.btn,
+.button,
+textarea,
+.rss-date,
+.viewer .caption,
+input[type="tel"], 
+input[type="url"], 
+input[type="text"], 
+input[type="date"], 
+input[type="time"], 
+input[type="email"], 
+.btn[type="submit"],
+input[type="reset"], 
+input[type="number"], 
+.wpcf7-form select,
+.comment-author span,
+.comment-author cite,
+#wp-calendar caption,
+input[type="search"],
+input[type="button"],
+input[type="submit"],
+input[type="password"],
+input[type="datetime"],
+.button[type="submit"],
+#cancel-comment-reply-link,
+.home-slide a.post-edit-link,
+.entry-content .wp-playlist-item-length,
+.widget_bean_tweets a.twitter-time-stamp,
+.bean-pricing-table .table-mast h5.title,
+#edd_checkout_form_wrap select.edd-select,
+.bean-pricing-table .table-mast h6.price,
+.hidden-sidebar.dark .widget h6.widget-title,
+.bean-pricing-table, .bean-pricing-table .table-mast p {
+	font-size: 18px;
+	line-height: 1.8em;
+}
+
+.widget_search input, .widget_product_search input {
+	background-position:  -81px -375px;
+}
+
+.widget_bean_tweets .button {
+	background-position: -93px -884px!important;
+}
+
+h6, #reply-title {
+	background: none;
+	text-transform: none;
+	padding: 0;
+	color: #282828;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+h6.widget-title {
+	margin-bottom: 5px;
+}
+
+.hidden-sidebar.dark .widget h6.widget-title {
+	color: #FFF
+}
+
+ul.grid .portfolio-wrap .entry-meta li, ul.grid .portfolio-wrap .entry-meta li a {
+	color: #AAA;
+}
+
+.bean-likes {
+	background-position:-93px -483px;
+}
+
+.after-post span {
+	margin-right: 10px;
+	top: -1px;
+}
+
+.comment-author span, .comment-author cite {
+	font-weight: 500;
+}
+
+.reveal h3#reply-title, .reveal h6.comments-title, .reveal #author-wrapper h6,
+.entry-content .portfolio-social li a,
+body .bean-pricing-table .table-mast h6.price {
+	text-transform: none!important;
+}
+
+.reveal h3#reply-title, .reveal h6.comments-title, .reveal #author-wrapper h6,
+.entry-content .portfolio-social li a {
+	font-weight: 500;
+}
+
+.entry-content .portfolio-social li a.twitter {
+	background-position: -93px -886px;
+}
+
+.entry-content .portfolio-social li a.facebook {
+	background-position: -93px -986px;
+}
+
+.entry-content .portfolio-social li a.pinterest {
+	background-position: -93px -1086px;
+}
+
+.entry-content .portfolio-social li a.google {
+	background-position: -92px -1186px;
+}

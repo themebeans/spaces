@@ -1,0 +1,221 @@
+/* COLORS */
+p a, .archives-list li a {
+	color: #FFF;
+	font-weight: normal;
+	border-bottom: 1px solid #C8C8C8;
+}
+
+cite a,
+form label,
+input:focus,
+.bean-tabs a,
+h4.entry-title a,
+.pinglist a:hover,
+#wp-calendar caption,
+.logged-in-as a:hover,
+.bean-panel-title > a,
+h1, h2, h3, h4, h5, 
+.bean-tabs > li.active > a, 
+.archives-list ul li a:hover,
+.sidebar .widget ul li a:hover,
+.recent-post-tabs > li > a:hover,
+.fancybox-title-float-wrap .child, 
+#reviews h2, .reveal #reply-title, .reveal #comments h6, .panel.entry-content h2,
+.entry-content .wp-playlist-item-title,
+.grid-item.format-aside p, 
+.format-aside .entry-content-media p,
+.bean-pricing-table .pricing-column li.info:hover,
+.entry-content .wp-playlist-item .wp-playlist-caption,
+#theme-wrapper.dark_style .grid-item.format-aside p { 
+	color: #FFF; 
+}
+
+h1 a, h2 a, h3 a, h4 a, #reviews .meta strong, .single-product ul.tabs li a, .testimonial h1 p {
+	color: #FFF!important; 
+}
+
+#place_order:hover,
+#load-more .overlay h5,
+.products li .overlay h5,
+#portfolio-grid li .overlay h5,
+.home-slider-mobile li .overlay h3,
+li.masonry-item.grid-masonry .overlay h5,
+.masonry-item .overlay .post-inner h1,
+.single_add_to_cart_button.button:hover,
+.widget .buttons .checkout.button:hover,
+input[type=submit].edd-submit.button:hover,
+#load-more.load-more-out:hover .overlay h5,
+.container1 > div, .container2 > div, .container3 > div { 
+	background-color: #FFF!important; 
+}
+
+.entry-meta li span,
+#theme-wrapper.dark_style,
+#theme-wrapper.dark_style p {
+	color: #787878;
+}
+
+footer a,
+.entry-meta li, .entry-meta li a,
+#theme-wrapper.dark_style .overlay p, 
+ul.grid .portfolio-wrap .entry-meta li, 
+ul.grid .portfolio-wrap .entry-meta li a,
+.entry-content .portfolio-social li a,
+.single-portfolio .portfolio-social .bean-likes {
+	color: #AAA;
+}
+
+.archives-list h6,
+.sidebar.dark,
+header nav .sub-menu, 
+.masonry-item .portfolio-wrap, 
+.masonry-item .portfolio-social li a,
+.bean-pricing-table .table-mast, 
+.bean-pricing-table .table-mast:hover {
+	background-color: #1A1A1A!important;
+}
+
+.btn, 
+.button, 
+.subscribe,
+.team-content,
+.subscribe-divide,
+.btn[type="submit"], 
+input[type="reset"], 
+input[type="button"], 
+input[type="submit"], 
+.button[type="submit"], 
+.products li a.added_to_cart {
+	background-color: #1A1A1A;
+}
+
+textarea,	
+textarea:hover,	   
+input[type="tel"], 
+input[type="url"], 		   
+input[type="text"], 
+input[type="date"], 
+input[type="time"], 
+input[type="email"], 
+input[type="number"], 
+input[type="search"], 
+input[type="password"], 
+input[type="datetime"], 		   
+input[type="tel"]:hover, 
+input[type="url"]:hover, 		   
+input[type="text"]:hover, 
+input[type="date"]:hover, 
+input[type="time"]:hover, 
+input[type="email"]:hover, 
+input[type="number"]:hover, 
+input[type="search"]:hover, 
+input[type="password"]:hover, 
+input[type="datetime"]:hover,
+.subscribe .mailbag-wrap input[type="email"],
+.subscribe .mailbag-wrap input[type="email"]:hover {
+	border-color: #1A1A1A;
+}
+
+.woocommerce .price, .single-product .woocommerce-tabs .tabs {
+	border-color: #1A1A1A!important;
+}
+
+#load-more .overlay h5,
+.products li .overlay h5,
+#portfolio-grid li .overlay h5,
+.home-slider-mobile li .overlay h3,
+#portfolio-grid li .overlay h5 a, 
+li.masonry-item.grid-masonry .overlay h5,
+.masonry-item .overlay .post-inner h1 a {
+	color: #282828!important;
+}
+
+#theme-wrapper.dark_style {
+	background-color: #282828!important;
+}
+
+.widget ul.product_list_widget li, 
+.masonry-item .portfolio-social li a,
+.single-portfolio .portfolio-content .bean-likes {
+	border-color: #282828!important;
+}
+
+.masonry-item .portfolio-social li a:hover {
+	background-color: #111!important;
+}
+
+.jp-interface, .entry-content .mejs-container, .entry-content .mejs-container .mejs-controls {
+	background: rgba(26, 26, 26, .90);
+}
+
+.mean-container .mean-nav {
+	background-color: #1A1A1A;
+}
+
+.mean-container .mean-nav ul li a:hover {
+	background: #282828;
+}
+
+.bean-pricing-table .pricing-column ul {
+	background-color: #202020;
+}
+
+.bean-pricing-table .table-mast h6.price {
+	background: none;
+}
+
+/* IMAGES */
+.fancybox-overlay {
+	background: url(images/overlay.png);
+}
+
+header input.search, .entry-content .portfolio-social li a {
+	background-image: url(images/sprite.png);
+}
+
+#portfolio-grid li.lb.gallery-grid:after {
+	background-image: url(images/lb-hover.png);
+}
+
+.single-portfolio .portfolio-social .bean-likes {
+	background-position: 0px -91px;
+}
+
+.single-portfolio .portfolio-social .bean-likes:hover {
+	background-position: 0px -32px;
+}
+
+@media only screen and (max-width : 400px) {
+	#portfolio-grid.more li .overlay {
+		background-image: url(images/hover.png)!important;
+	}
+
+	#portfolio-grid.more #load-more .overlay {
+		background-image: url(images/portfolio-hover.png)!important;
+	}
+}
+
+
+/* RETINA */
+@media only screen and (-webkit-min-device-pixel-ratio : 2), 
+only screen and (min--moz-device-pixel-ratio : 2),
+only screen and (-o-min-device-pixel-ratio : 2/1),
+only screen and (min-device-pixel-ratio : 2),
+only screen and (min-resolution : 192dpi),
+only screen and (min-resolution : 2dppx) {
+	header input.search, .entry-content .portfolio-social li a {
+		background-image: url('images/sprite@2x.png')!important;
+	}
+
+	#portfolio-grid li.lb.gallery-grid:after {
+		background-image: url(images/lb-hover@2x.png)!important;
+	}
+
+	#portfolio-grid.more li .overlay {
+		background-image: url(images/hover@2x.png)!important;
+	}
+
+	#portfolio-grid.more #load-more .overlay {
+		background-image: url(images/portfolio-hover@2x.png)!important;
+	}
+}
